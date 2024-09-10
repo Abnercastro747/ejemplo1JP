@@ -1,0 +1,49 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 340px 1500px;
+    grid-template-rows: 250px 900px 100px;
+    grid-template-areas: 
+    'enc enc'
+    'sec1 sec2'
+    'pie pie'
+    
+    ;
+}
+#enc{
+    background-color: aliceblue;
+    grid-area: enc;
+}
+#sec1{
+    background-color: rgb(223, 119, 22);
+    grid-area: sec1;
+    text-align: center;
+}
+#sec2{
+    background-color: rgb(157, 219, 219);
+    grid-area: sec2;
+    text-align: center;
+}
+#pie{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    width: 1840px;
+    height: 700px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+h1,h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+

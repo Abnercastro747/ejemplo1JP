@@ -1,0 +1,39 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1849px;
+    grid-template-rows: 250px 1500px 50px;
+    grid-template-areas: 
+    'enc'
+    'sec2'
+    'pie'
+
+    ;
+}
+#enc{
+    background-color: aliceblue;
+    grid-area: enc;
+}
+#sec2{
+    background-color: aqua;
+    grid-area: sec2;
+    text-align: center;
+}
+#pie{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    text-align: center;
+}
+img{
+    width: 1849px;
+    height: 700px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#con{
+    width: 500px;
+    height: 300px;
+}
+
